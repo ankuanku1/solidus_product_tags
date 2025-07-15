@@ -38,6 +38,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency "solidus_backend", ">= 3.0"
   spec.add_dependency "solidus_admin"
   spec.add_dependency "solidus_support"
+  spec.add_development_dependency "rspec-rails"
+  spec.add_development_dependency "sqlite3"
+
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end
