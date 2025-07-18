@@ -8,18 +8,24 @@ Add this line to your application's Gemfile:
 
 ```bash
 gem 'solidus_product_tags', github: 'ankuanku1/solidus_product_tags'```
-
+```
 Then run:
 
 ```bash
 bundle install
 ```
 
-Run the installer:
+Run the installer to copy over migrations:
 
 ```bash
-bin/rails g solidus__product_tags:install
+bin/rails generate solidus_product_tags:install
 ```
+Finally, migrate the database:
+
+```bash
+bin/rails db:migrate
+```
+
 
 ## Usage
 
