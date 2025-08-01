@@ -10,14 +10,14 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Allows tagging for the products."
   spec.description = "Products can be tagged with custom tags."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/ankuanku1/solidus_product_tags"
   spec.required_ruby_version = ">= 3.1.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/ankuanku1/solidus_product_tags"
+  spec.metadata["changelog_uri"] = "https://github.com/ankuanku1/solidus_product_tags/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -36,7 +36,6 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "example-gem", "~> 1.0"
   spec.add_dependency "solidus_core", ">= 3.0"
   spec.add_dependency "solidus_backend", ">= 3.0"
-  spec.add_dependency "solidus_admin"
   spec.add_dependency "solidus_support"
   spec.add_development_dependency "rspec-rails"
   spec.add_development_dependency "sqlite3"
