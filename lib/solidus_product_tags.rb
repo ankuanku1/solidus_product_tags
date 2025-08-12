@@ -10,5 +10,4 @@ require "solidus_product_tags/engine"
 
 module SolidusProductTags
   class Error < StandardError; end
-  # Your code goes here...
 end
