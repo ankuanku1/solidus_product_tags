@@ -14,7 +14,7 @@ module SolidusProductTags
     end
 
     def tag_list
-      tags.map(&:name).join(", ")
+      tags.order(:name).pluck(:name).join(", ")
     end
 
     def tag_list=(names)
