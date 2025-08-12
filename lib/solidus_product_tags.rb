@@ -3,7 +3,6 @@
 require_relative "solidus_product_tags/version"
 require "solidus_core"
 require "solidus_backend"
-require "solidus_admin"
 require "solidus_support"
 
 require "solidus_product_tags/version"
